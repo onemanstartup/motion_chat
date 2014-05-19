@@ -8,10 +8,5 @@ require 'sugarcube-repl'
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'mobile_taxcon'
-  app.pods do
-    pod 'RestKit'
-    pod 'SVProgressHUD'
-  end
+  app.name = 'mobile_chat'
 end
-task :"build:simulator" => :"schema:build"
