@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/rubymotion/motion-kit.git
+  revision: 8cf44fe258a71703b6f8ed05334507427e70bbc0
+  specs:
+    motion-kit (0.10.0)
+      dbt
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -8,8 +15,6 @@ GEM
     dbt (1.1.4)
     methadone (1.4.0)
       bundler
-    motion-kit (0.9.6)
-      dbt
     motion-require (0.2.0)
     rake (10.3.2)
     sugarcube (1.6.1)
@@ -20,6 +25,6 @@ PLATFORMS
 DEPENDENCIES
   ProMotion
   awesome_print_motion
-  motion-kit
+  motion-kit!
   rake
   sugarcube

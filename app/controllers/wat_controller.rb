@@ -7,7 +7,7 @@ class WatController < UITableViewController
   end
 
   def messages
-    [{arguments: {message: 'hello'}}, {arguments: {message: 'hello'}}]
+    [{arguments: {message: 'Since we dont have Interface Builder to help us create constaints (and since the ASCII format leaves much to be desired), many RubyMotion developers never bother to start using AutoLayout'}}, {arguments: {message: 'hello'}}]
   end
 
   def viewDidLoad
@@ -32,8 +32,15 @@ class WatController < UITableViewController
   def tableView(table_view, heightForRowAtIndexPath: index_path)
     cell = OtherCell.new
     cell.setup(messages[index_path.row], table_view)
+    cell.setNeedsUpdateConstraints
+    cell.updateConstraintsIfNeeded
+    cell.setNeedsLayout
     cell.layoutIfNeeded
-    height = cell.layout.label.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height + 1
+    puts cell.layout.label.inspect
+    puts cell.contentView.size.inspect
+    # height = cell.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height + 1 # height 24
+    height = cell.contentView.size.height + 20
+    height
   end
 
 end

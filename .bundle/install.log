@@ -8,3 +8,12 @@ I, [2014-05-19T20:22:31.970159 #83375]  INFO -- : 2:  sugarcube (1.6.1) from /Us
 I, [2014-05-19T20:22:32.591972 #83374]  INFO -- : 1:  methadone (1.4.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/methadone-1.4.0.gemspec
 I, [2014-05-19T20:22:32.841539 #83376]  INFO -- : 3:  motion-kit (0.9.6) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/motion-kit-0.9.6.gemspec
 I, [2014-05-19T20:22:33.988883 #83373]  INFO -- : 0:  ProMotion (1.2.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/ProMotion-1.2.0.gemspec
+I, [2014-05-22T02:53:19.192864 #81554]  INFO -- : 1:  rake (10.3.2) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/rake-10.3.2.gemspec
+I, [2014-05-22T02:53:19.197756 #81554]  INFO -- : 1:  dbt (1.1.4) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/dbt-1.1.4.gemspec
+I, [2014-05-22T02:53:19.202168 #81554]  INFO -- : 1:  sugarcube (1.6.1) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/sugarcube-1.6.1.gemspec
+I, [2014-05-22T02:53:19.237858 #81553]  INFO -- : 0:  awesome_print_motion (0.1.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/awesome_print_motion-0.1.0.gemspec
+I, [2014-05-22T02:53:19.240726 #81555]  INFO -- : 2:  motion-require (0.2.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/motion-require-0.2.0.gemspec
+I, [2014-05-22T02:53:19.241383 #81556]  INFO -- : 3:  bundler (1.5.1) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
+I, [2014-05-22T02:53:19.246778 #81553]  INFO -- : 0:  methadone (1.4.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/methadone-1.4.0.gemspec
+I, [2014-05-22T02:53:19.269056 #81556]  INFO -- : 3:  ProMotion (1.2.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/specifications/ProMotion-1.2.0.gemspec
+I, [2014-05-22T02:53:19.449447 #81554]  INFO -- : 1:  motion-kit (0.10.0) from /Users/onemanstartup/.rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/bundler/gems/motion-kit-8cf44fe258a7/motion-kit.gemspec

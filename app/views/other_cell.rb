@@ -7,12 +7,10 @@ class OtherCell < UITableViewCell
   end
 
   def setup(data_cell, table_screen)
-    @layout = MessageCellLayout.new
+    @layout = MessageCellLayout.new(root: self.contentView)
     @layout.label.text = data_cell[:arguments][:message]
-    self.contentView.addSubview @layout.view
     self.setNeedsLayout
     self.layoutIfNeeded
-    self.textLabel.text = data_cell[:arguments][:message]
     self
   end
 
@@ -22,8 +20,7 @@ class OtherCell < UITableViewCell
   end
 
   def updateConstraints
-    super
     @layout.add_constraints(self)
+    super
   end
 end
-
